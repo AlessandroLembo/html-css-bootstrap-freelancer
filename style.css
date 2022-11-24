@@ -1,4 +1,6 @@
-
+body{
+    background-color: blanchedalmond;
+}
 
 .row > [class^="col"] {
     height: 100px;
@@ -6,7 +8,7 @@
     background-color: lightgray;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
  }
 
 /* backgroun-color */
@@ -38,7 +40,7 @@ header{
     min-height: 350px;
     background-color: lightgrey;
     border: 2px dashed black;
-    margin: 0.5rem auto;
+    margin: 1rem auto;
 }
 
 .ps-portfolio{
