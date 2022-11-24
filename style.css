@@ -1,3 +1,9 @@
-body{
-    background-color: aqua;
-}
+
+
+.row > [class^="col"] {
+    min-height: 100px;
+    background-color: chocolate;
+    border: 1px solid black;
+ }
+
+ 
