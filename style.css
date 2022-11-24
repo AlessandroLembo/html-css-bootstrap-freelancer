@@ -52,3 +52,10 @@ header{
     height: 100%;
     background-color: crimson;
 }
+
+.footer-bottom{
+    height: 100px;
+    background-color: #00264d;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
