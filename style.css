@@ -14,8 +14,19 @@ header{
     background-color: #00e6e6;
 }
 
-.pr-jumbo{
+.ps-jumbo{
     min-height: 350px;
+    background-color: lightgrey;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
+
+#portfolio{
+    background-color: whitesmoke;
+}
+
+.ps-portfolio{
+    min-height: 100px;
     background-color: lightgrey;
     border: 2px dashed black;
     margin: 0 auto;
