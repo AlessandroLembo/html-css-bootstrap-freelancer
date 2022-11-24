@@ -2,6 +2,21 @@
 
 .row > [class^="col"] {
     min-height: 100px;
-    background-color: chocolate;
-    border: 1px solid black;
+    border: 2px dashed black;
+    background-color: lightgray;
  }
+
+header{
+    background-color:#005580;
+}
+
+#jumbotron{
+    background-color: #00e6e6;
+}
+
+.pr-jumbo{
+    min-height: 350px;
+    background-color: lightgrey;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
