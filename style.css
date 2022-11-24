@@ -31,3 +31,7 @@ header{
     border: 2px dashed black;
     margin: 0 auto;
 }
+
+#about{
+    background-color: aqua;
+}
