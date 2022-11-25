@@ -2,6 +2,7 @@ body{
     background-color: blanchedalmond;
 }
 
+/* Generics */
 .row > [class^="col"] {
     height: 100px;
     border: 2px dashed black;
@@ -11,13 +12,18 @@ body{
     margin-bottom: 1rem;
  }
 
-/* backgroun-color */
+
+/* background-color */
 header{
     background-color:#005580;
 }
 
 #jumbotron{
     background-color: #00e6e6;
+}
+
+#portfolio{
+    background-color: whitesmoke;
 }
 
 #about{
@@ -32,32 +38,14 @@ header{
     background-color: #005580;
 }
 
-#portfolio{
-    background-color: whitesmoke;
+.footer-bottom{
+    background-color: #00264d;
 }
 
-.ps-jumbo{
-    min-height: 350px;
-    background-color: lightgrey;
-    border: 2px dashed black;
-    margin: 1rem auto;
-}
-
-.ps-portfolio{
-    height: 100px;
-    background-color: lightgrey;
-    border: 2px dashed black;
-    margin: 0 auto;
-}
-
+/* section portfolio */
 .card{
     height: 100%;
     background-color: crimson;
 }
 
-.footer-bottom{
-    height: 100px;
-    background-color: #00264d;
-    border: 2px dashed black;
-    margin: 0 auto;
-}
+
