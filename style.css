@@ -6,12 +6,21 @@ body{
 /* Generics */
 
 .row > [class^="col"] {
-    height: 100px;
+    min-height: 100px;
     /*border: 2px dashed black;
     background-color: lightgray;*/
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     /* margin-bottom: 1rem; */
+ }
+
+ section img{
+    max-width: 100%;
+ }
+
+ section figure{
+    width: 200px;
+    height: 200px;
  }
 
 /* background-color */
@@ -60,9 +69,19 @@ header .ps-nav{
 }
 
 
+/* Jumbotron */
+.ps-brd-line{
+    width: 50px;
+    border: 1px solid white;
+}
+
+.ps-line-space{
+    width: 10px;
+    border: 1px solid white;
+}
 
 /* section portfolio */
-.card{
+.ps-card{
     height: 100%;
     background-color: crimson;
 }
