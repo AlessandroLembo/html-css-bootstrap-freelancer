@@ -9,6 +9,9 @@
     <!--Link Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     
+    <!--Link Bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
     <!--Link personale CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,8 +19,19 @@
     <header>
         <div class="container-lg">
           <div class="row justify-content-between">
-            <div class="col-5 col-md-4">header</div>
-            <div class="col-1 col-md-4"></div>
+            <div class="col-5 col-md-4">
+                <h1 class="ps-title text-uppercase fs-3 d-flex align-items-center">start bootstrap</h1>
+            </div>
+            <div class="col-2 col-md-4">
+                <i class="ps-icon bi bi-card-list fs-1 d-flex justify-content-end align-items-center d-md-none"></i>
+                <nav class="ps-nav d-none d-md-block">
+                   <ul class="ps-nav d-flex align-items-center">
+                     <li class="ps-item"><a href="#" class="ps-nav px-2 text-uppercase d-flex align-items-center">portfolio</a></li>
+                     <li class="ps-item"><a href="#" class="ps-nav px-2 text-uppercase d-flex align-items-center">about</a></li>
+                     <li class="ps-item"><a href="#" class="ps-nav px-2 text-uppercase d-flex align-items-center">contact</a></li>
+                   </ul>
+                </nav>
+            </div>
           </div>
         </div>
     </header>
@@ -60,7 +74,7 @@
             <div class="container-md">
                 <div class="row justify-content-center">
                     <div class="col-8 col-md-5">about me</div>
-                    <div class="col-8 d-none col-md-5 d-md-flex">about me</div>
+                    <div class="col-8 col-md-5">about me</div>
                 </div>
             </div>
         </section>
