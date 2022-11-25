@@ -18,10 +18,6 @@ body{
     max-width: 100%;
  }
 
- section figure{
-    width: 200px;
-    height: 200px;
- }
 
 /* background-color */
 header{
@@ -54,22 +50,25 @@ header{
 
 /* Header */
 header .ps-title, .ps-icon{
-    height: 100%;
+    height: 100%; 
  }
 
 header .ps-item{
     list-style-type: none;
-    height: 100%;
 }
 
 header .ps-nav{
     text-decoration: none;
     color: white;
-    height: 100%;
+    height: 100%; 
 }
 
 
 /* Jumbotron */
+#jumbotron figure{
+    width: 200px;
+ }
+
 .ps-brd-line{
     width: 50px;
     border: 1px solid white;
@@ -80,10 +79,19 @@ header .ps-nav{
     border: 1px solid white;
 }
 
-/* section portfolio */
-.ps-card{
-    height: 100%;
-    background-color: crimson;
+#jumbotron i{
+    color: white;
 }
 
+/* section portfolio */
+#portfolio h1, i{
+    color: #005580;
+}
 
+#portfolio .ps-brd-line{
+    border: 1px solid #005580;
+}
+
+#portfolio figure{
+    width: 500px;
+}
