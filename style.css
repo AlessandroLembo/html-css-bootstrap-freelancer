@@ -6,11 +6,8 @@ body{
 
 .row > [class^="col"] {
     min-height: 100px;
-    /*border: 2px dashed black;
-    background-color: lightgray;*/
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
-    /* margin-bottom: 1rem; */
  }
 
  section img{
@@ -20,7 +17,6 @@ body{
  section{
     padding: 1rem 0;
  }
-
 
 /* background-color */
 header{
@@ -132,3 +128,14 @@ header .ps-nav{
 #contact-me button{
     background-color:#00e6e6;
 }
+
+/* footer */
+footer i{
+    color: white;
+}
+
+.footer-top{
+    padding: 2rem 0;
+}
+
+

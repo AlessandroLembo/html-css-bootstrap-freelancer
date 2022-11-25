@@ -43,7 +43,7 @@
                 <figure>
                     <img src="img/avatar.svg" alt="avatar">
                 </figure>
-                <h1 class="fs-1 text-uppercase">start bootstrap</h1>
+                <h1 class="fs-1 text-uppercase fw-bold">start bootstrap</h1>
                 <div class="ps-favicon-star d-flex justify-content-center align-items-center">
                     <div class="ps-brd-line"></div>
                     <i class="bi bi-star px-1 fs-3"></i>
@@ -63,8 +63,8 @@
         <section id="portfolio">
             <div class="container-lg">
                 <div class="row">
-                    <div class="col-12 col-md-10 col-lg-12 d-flex flex-column align-items-center justify-content-center">
-                       <h1 class="text-uppercase fs-3">portfolio</h1>
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+                       <h1 class="text-uppercase fs-2 fw-semibold">portfolio</h1>
                        <div class="ps-favicon-star d-flex justify-content-center align-items-center">
                          <div class="ps-brd-line"></div>
                          <i class="bi bi-star px-1 fs-3"></i>
@@ -123,7 +123,7 @@
         <section id="about">
             <div class="container-md">
                 <div class="d-flex flex-column align-items-center">
-                    <h1 class="fs-3 text-uppercase">about</h1>
+                    <h1 class="fs-2 text-uppercase fw-semibold">about</h1>
                     <div class="ps-favicon-star d-flex justify-content-center align-items-center">
                       <div class="ps-brd-line"></div>
                       <i class="bi bi-star px-1 fs-3"></i>
@@ -146,8 +146,8 @@
         <section id="contact-me">
             <div class="container-md">
               <div class="row">
-                <div class="col-12 col-md-10 col-lg-12 d-flex flex-column align-items-center justify-content-center">
-                   <h1 class="text-uppercase fs-3">portfolio</h1>
+                <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+                   <h1 class="text-uppercase fs-2 fw-semibold">contact me</h1>
                    <div class="ps-favicon-star d-flex justify-content-center align-items-center">
                      <div class="ps-brd-line"></div>
                      <i class="bi bi-star px-1 fs-3"></i>
@@ -181,15 +181,33 @@
     <footer>
         <div class="footer-top">
            <div class="container-lg">
-              <div class="row justify-content-center align-items-center">
-                <div class="col-10 col-md-3 col-lg-4">location</div>
-                <div class="col-8 col-md-3 col-lg-4">around the web</div>
-                <div class="col-12 col-md-3 col-lg-4">about freelancer</div>
+              <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-3 col-lg-4 d-flex flex-column align-items-center">
+                   <address class="text-uppercase fw-semibold fs-5">location</address>
+                   <address class="text-capitalize text-center">2215 john daniel clark, MO 54243</address>
+                </div>
+                <div class="col-12 col-md-3 col-lg-4 d-flex flex-column align-items-center">
+                  <div class="text-uppercase fw-semibold fs-5">around the web</div>
+                  <div class="d-flex justify-content-center text-center">
+                    <i class="bi bi-facebook fs-2 px-3"></i>
+                    <i class="bi bi-google fs-2 px-3"></i>
+                    <i class="bi bi-twitter fs-2 px-3"></i>
+                    <i class="bi bi-linkedin fs-2 px-3"></i>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-4 d-flex flex-column align-items-center">
+                  <div class="text-uppercase fw-semibold fs-5">about freelancer</div>
+                  <div class="text-center">Freelance is a free to use, open source Bootstrap theme created by <span class="text-success text-capitalize">start bootstrap</span></div>
+                </div>
               </div>
            </div>
         </div>
         <div class="footer-bottom row justify-content-center">
-            <div class="col-6 col-md-4 col-lg-3">copyright</div>
+            <div class="col-6 col-md-4 col-lg-3 text-center pt-4">
+              <span class="text-capitalize">copyright</span>
+              <i class="bi bi-c-circle text-white px-1"></i>
+              <span class="text-capitalize">your website 2019</span>
+            </div>
         </div>
     </footer>
 
