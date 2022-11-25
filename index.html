@@ -23,7 +23,7 @@
                 <h1 class="ps-title text-uppercase fs-3 d-flex align-items-center">start bootstrap</h1>
             </div>
             <div class="col-2 col-md-4">
-                <i class="ps-icon bi bi-card-list fs-1 d-flex justify-content-end align-items-center d-md-none"></i>
+                <i class="ps-icon bi bi-card-list d-flex justify-content-end align-items-center d-md-none"></i>
                 <nav class="ps-nav d-none d-md-block">
                    <ul class="ps-nav d-flex align-items-center">
                      <li class="ps-item"><a href="#" class="ps-nav px-2 text-uppercase d-flex align-items-center">portfolio</a></li>
@@ -145,9 +145,35 @@
 
         <section id="contact-me">
             <div class="container-md">
-                <div class="row justify-content-center">
-                    <div class="col-8 col-md-10">contact me</div>
-                </div>
+              <div class="row">
+                <div class="col-12 col-md-10 col-lg-12 d-flex flex-column align-items-center justify-content-center">
+                   <h1 class="text-uppercase fs-3">portfolio</h1>
+                   <div class="ps-favicon-star d-flex justify-content-center align-items-center">
+                     <div class="ps-brd-line"></div>
+                     <i class="bi bi-star px-1 fs-3"></i>
+                     <div class="ps-brd-line"></div>
+                   </div>
+                </div> 
+              </div>       
+              <div class="row justify-content-center">
+                    <div class="col-8 col-md-10">
+                      <form>
+                          <div class="ps-insert-data mb-1">
+                            <input type="text" class="form-control ps-0 py-3 fs-4 fw-semibold" placeholder="Name" id="name" name="name" required>
+                          </div>
+                          <div class="ps-insert-data mb-1">
+                            <input type="email" class="form-control ps-0 py-3 fs-4 fw-semibold" placeholder="Email Address" id="email" name="email">
+                          </div>
+                          <div class="ps-insert-data mb-1">
+                            <input type="tel" class="form-control ps-0 py-3 fs-4 fw-semibold" placeholder="Phone Number" id="phone" name="phone">
+                          </div>
+                          <div class="ps-insert-message mb-1">
+                            <textarea class="form-control ps-0 py-3 fs-4 fw-semibold" placeholder="Message" id="message" name="message" rows="8"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-primary text-capitalize px-3 py-2 mt-2 border border-white">send</button>
+                      </form>
+                    </div>
+              </div>
             </div>
         </section>
     </main>    
