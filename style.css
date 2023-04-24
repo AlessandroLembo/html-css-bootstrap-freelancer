@@ -132,6 +132,7 @@ header .ps-nav{
 /* footer */
 footer i{
     color: white;
+    cursor: pointer;
 }
 
 .footer-top{
